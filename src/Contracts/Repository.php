@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Contracts;
+namespace Khuehm1511\Modules\Contracts;
 
 interface Repository
 {

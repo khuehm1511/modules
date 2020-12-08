@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Khuehm1511\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Caffeinated\Modules\RepositoryManager;
+use Khuehm1511\Modules\RepositoryManager;
 use Symfony\Component\Console\Helper\ProgressBar;
 
 class MakeModuleCommand extends Command

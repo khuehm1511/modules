@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Khuehm1511\Modules;
 
 use Exception;
 use Illuminate\Foundation\Application;
-use Caffeinated\Modules\Repositories\Repository;
-use Caffeinated\Modules\Exceptions\ModuleNotFoundException;
+use Khuehm1511\Modules\Repositories\Repository;
+use Khuehm1511\Modules\Exceptions\ModuleNotFoundException;
 
 class RepositoryManager
 {
@@ -96,7 +96,7 @@ class RepositoryManager
     }
 
     /**
-     * @return \Caffeinated\Modules\Repositories\Repository[]
+     * @return \Khuehm1511\Modules\Repositories\Repository[]
      */
     public function repositories()
     {
@@ -105,7 +105,7 @@ class RepositoryManager
 
     /**
      * @param string $location
-     * @return \Caffeinated\Modules\Repositories\Repository
+     * @return \Khuehm1511\Modules\Repositories\Repository
      * @throws \Exception
      */
     protected function repository($location = null)

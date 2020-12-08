@@ -6,6 +6,10 @@ and this package adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.2.1 - 2020-12-09]
+### Added
+- Laravel 8 support
+
 ## [6.2.0 - 2020-04-02]
 ### Added
 - Laravel 7 support

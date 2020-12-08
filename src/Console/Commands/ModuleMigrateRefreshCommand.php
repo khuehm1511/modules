@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Khuehm1511\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
-use Caffeinated\Modules\Repositories\Repository;
+use Khuehm1511\Modules\Repositories\Repository;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 

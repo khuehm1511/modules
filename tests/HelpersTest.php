@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Tests;
+namespace Khuehm1511\Modules\Tests;
 
 class HelpersTest extends BaseTestCase
 {

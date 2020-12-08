@@ -1,5 +1,5 @@
 {
-    "name": "caffeinated/modules",
+    "name": "khuehm1511/modules",
     "description": "Laravel Modules",
     "keywords": ["modules", "laravel", "caffeinated"],
     "license": "MIT",
@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^6.0|^7.0"
+        "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -26,12 +26,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Caffeinated\\Modules\\": "src/"
+            "Khuehm1511\\Modules\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Modules\\Tests\\": "tests"
+            "Khuehm1511\\Modules\\Tests\\": "tests"
         }
     },
     "suggest": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Modules\\ModulesServiceProvider"
+                "Khuehm1511\\Modules\\ModulesServiceProvider"
             ],
             "aliases": {
-                "Module": "Caffeinated\\Modules\\Facades\\Module"
+                "Module": "Khuehm1511\\Modules\\Facades\\Module"
             }
         }
     }

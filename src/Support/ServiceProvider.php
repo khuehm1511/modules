@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Support;
+namespace Khuehm1511\Modules\Support;
 
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;

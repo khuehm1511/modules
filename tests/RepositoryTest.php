@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Tests;
+namespace Khuehm1511\Modules\Tests;
 
 use Illuminate\Support\Collection;
 
@@ -9,7 +9,7 @@ class RepositoryTest extends BaseTestCase
     protected $finder;
 
     /**
-     * @var \Caffeinated\Modules\Repositories\Repository
+     * @var \Khuehm1511\Modules\Repositories\Repository
      */
     protected $repository;
 
