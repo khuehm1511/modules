@@ -64,10 +64,10 @@ class ServiceProvider extends IlluminateServiceProvider
      *
      * @return void
      */
-    protected function loadFactoriesFrom($path)
-    {
-        app(Factory::class)->load($path);
-    }
+    // protected function loadFactoriesFrom($path)
+    // {
+    //     app(Factory::class)->load($path);
+    // }
 
     /**
      * Get all of the configuration files for the application.
