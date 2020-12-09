@@ -1,9 +1,9 @@
 # Caffeinated Modules
-[![Source](https://img.shields.io/badge/source-caffeinated/modules-blue.svg?style=flat-square)](https://github.com/caffeinated/modules)
-[![Latest Stable Version](https://poser.pugx.org/caffeinated/modules/v/stable?format=flat-square)](https://packagist.org/packages/caffeinated/modules)
+[![Source](https://img.shields.io/badge/source-khuehm1511\\Modules-blue.svg?style=flat-square)](https://github.com/khuehm1511\\Modules)
+[![Latest Stable Version](https://poser.pugx.org/khuehm1511\\Modules/v/stable?format=flat-square)](https://packagist.org/packages/khuehm1511\\Modules)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
-[![Total Downloads](https://img.shields.io/packagist/dt/caffeinated/modules.svg?style=flat-square)](https://packagist.org/packages/caffeinated/modules)
-[![Travis (.org)](https://img.shields.io/travis/caffeinated/modules.svg?style=flat-square)](https://travis-ci.org/caffeinated/modules)
+[![Total Downloads](https://img.shields.io/packagist/dt/khuehm1511\\Modules.svg?style=flat-square)](https://packagist.org/packages/khuehm1511\\Modules)
+[![Travis (.org)](https://img.shields.io/travis/khuehm1511\\Modules.svg?style=flat-square)](https://travis-ci.org/khuehm1511\\Modules)
 
 Extract and modularize your code for maintainability. Essentially creates "mini-laravel" structures to organize your application. Originally developed for [FusionCMS](https://github.com/fusioncms/fusioncms), an open source content management system.
 
@@ -14,7 +14,7 @@ You will find user friendly and updated documentation on the [Caffeinated websit
 Simply install the package through Composer. From here the package will automatically register its service provider and `Module` facade.
 
 ```
-composer require caffeinated/modules
+composer require khuehm1511\\Modules
 ```
 
 ### Config
