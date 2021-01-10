@@ -28,6 +28,7 @@ class GeneratorServiceProvider extends ServiceProvider
             'command.make.module.policy'     => \Khuehm1511\Modules\Console\Generators\MakePolicyCommand::class,
             'command.make.module.provider'   => \Khuehm1511\Modules\Console\Generators\MakeProviderCommand::class,
             'command.make.module.request'    => \Khuehm1511\Modules\Console\Generators\MakeRequestCommand::class,
+            'command.make.module.resource'   => \Khuehm1511\Modules\Console\Generators\MakeResourceCommand::class,
             'command.make.module.seeder'     => \Khuehm1511\Modules\Console\Generators\MakeSeederCommand::class,
             'command.make.module.test'       => \Khuehm1511\Modules\Console\Generators\MakeTestCommand::class,
             'command.make.module.job'        => \Khuehm1511\Modules\Console\Generators\MakeJobCommand::class,
