@@ -53,6 +53,6 @@ class MakeResourceCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-		return module_class($this->argument('slug'), 'Http\\Resources', $this->option('location'));
+		return module_class($this->argument('slug'), 'Http\\Resources');
     }
 }
